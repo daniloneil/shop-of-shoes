@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/proxima_nova-webfont.woff), url(../fonts/proxima_nova-webfont.woff2);
+}
+
+:root {
+    --colorTitle: #bb23d6;
+    --colorParagraph: #6d27dd;
+    --colorArticle: #18060e;
+    --colorTextForm: #fff;
+}
+
+body {
+    font-family: 'Proxima Nova';
+    overflow-wrap: break-word;
+}

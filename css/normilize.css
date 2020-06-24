@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--colorArticle);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.page {
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 1500px;
+    min-width: 290px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
