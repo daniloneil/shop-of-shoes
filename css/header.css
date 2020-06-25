@@ -5,6 +5,7 @@
     position: relative;
     z-index: 1;
 }
+
 .header::after {
     content: '';
     background: linear-gradient(0deg, rgb(26, 26, 26) 0%, rgba(26, 26, 26, 0) 100%);
@@ -28,6 +29,7 @@
     display: block;
     text-align: center;
 }
+
 .logo__svg {
     width: 70px;
     height: 70px;
@@ -36,13 +38,10 @@
     transition-duration: 500ms;
     transition-property: fill;
 }
+
 .logo__svg:hover {
     fill: red;
 }
-/* .logo__img {
-    display: block;
-    max-width: 100%;
-} */
 
 .menu__list {
     display: flex;
@@ -81,7 +80,7 @@
 }
 
 .header__title {
-    letter-spacing: 36px;
+    letter-spacing: 25px;
     font-size: 60px;
     color: #fff;
     line-height: 70px;
@@ -194,4 +193,5 @@
     .header__link:hover {
         letter-spacing: 9px;
     }
+
 }
